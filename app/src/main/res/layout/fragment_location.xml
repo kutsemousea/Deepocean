@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#2196F3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#BBDEFB"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="You are on the beach Langeron"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Fauna"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/red"
+                        app:srcCompat="@drawable/ic_jellyfish"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:text="Jellyfish"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/green"
+                        app:srcCompat="@drawable/ic_007_dolphin"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:text="Dolphins"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/red"
+                        app:srcCompat="@drawable/ic_006_shark"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sharks"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/yellow"
+                        app:srcCompat="@drawable/ic_005_seaweed"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:text="Seaweed"/>
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Beach"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/green"
+                        app:srcCompat="@drawable/ic_save_tool"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:text="There are rescuers"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/red"
+                        app:srcCompat="@drawable/ic_trash_on_beatch"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:text="Dirty beach"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/green"
+                        app:srcCompat="@drawable/ic_shopping_cart"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:text="Near shops"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="The weather for three hours"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:paddingBottom="10dp">
+
+            <TableRow>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/red"
+                        app:srcCompat="@drawable/ic_004_sea_waves"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:text="Large waves"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/yellow"
+                        app:srcCompat="@drawable/ic_003_clouds"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:text="Clouds"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ActivityBgItemLayout">
+
+                    <ImageView
+                        style="@style/ActivityBgItemImage"
+                        android:backgroundTint="@color/red"
+                        app:srcCompat="@drawable/ic_wind_sign"/>
+
+                    <TextView
+                        style="@style/ActivityBgItemText"
+                        android:text="Strong wind"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

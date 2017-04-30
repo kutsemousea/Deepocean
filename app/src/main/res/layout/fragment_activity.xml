@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#2196F3">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_swimmer"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="For today, you"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <LinearLayout style="@style/ActivityBgItemLayout">
+
+                <ImageView
+                    style="@style/ActivityBgItemImage"
+                    app:srcCompat="@drawable/ic_swimming_1"/>
+
+                <TextView
+                    style="@style/ActivityBgItemText"
+                    android:text="Floated 2km"/>
+            </LinearLayout>
+
+            <LinearLayout style="@style/ActivityBgItemLayout">
+
+                <ImageView
+                    style="@style/ActivityBgItemImage"
+                    app:srcCompat="@drawable/ic_footsteps_silhouette_variant"/>
+
+                <TextView
+                    style="@style/ActivityBgItemText"
+                    android:text="Take 3000 steps"/>
+            </LinearLayout>
+
+            <LinearLayout style="@style/ActivityBgItemLayout">
+
+                <ImageView
+                    style="@style/ActivityBgItemImage"
+                    app:srcCompat="@drawable/ic_first_prize"/>
+
+                <TextView
+                    style="@style/ActivityBgItemText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Swim 3 times every week"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout style="@style/ActivityBgItemLayout">
+
+                <ImageView
+                    style="@style/ActivityBgItemImage"
+                    app:srcCompat="@drawable/ic_av_timer_black_24dp"/>
+
+                <TextView
+                    style="@style/ActivityBgItemText"
+                    android:text="Active for 30 minutes"/>
+            </LinearLayout>
+
+            <LinearLayout style="@style/ActivityBgItemLayout">
+
+                <ImageView
+                    style="@style/ActivityBgItemImage"
+                    app:srcCompat="@drawable/ic_push_button"/>
+
+                <TextView
+                    style="@style/ActivityBgItemText"
+                    android:text="Used SOS 0 times"/>
+            </LinearLayout>
+
+            <LinearLayout style="@style/ActivityBgItemLayout">
+
+                <ImageView
+                    style="@style/ActivityBgItemImage"
+                    app:srcCompat="@drawable/ic_speed"/>
+
+                <TextView
+                    style="@style/ActivityBgItemText"
+                    android:text="Max speed of melt"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout style="@style/ActivityBgItemLayout">
+
+                <ImageView
+                    style="@style/ActivityBgItemImage"
+                    app:srcCompat="@drawable/ic_add_black_24dp"/>
+
+                <TextView
+                    style="@style/ActivityBgItemText"
+                    android:text="Create your own"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

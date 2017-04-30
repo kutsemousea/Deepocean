@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Deep ocean</string>
+    <string name="title_home">Home</string>
+    <string name="activity">Activity</string>
+    <string name="title_dashboard">Location</string>
+    <string name="settings">Settings</string>
+</resources>
